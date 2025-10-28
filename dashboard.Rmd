@@ -1,0 +1,71 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Bar Chart
+The number of items ordered in each aisle (n>10000)
+
+```{r}
+data("instacart")
+
+instacart %>% 
+  group_by(aisle_id, aisle) %>% 
+  summarize(n_obs = n()) %>% 
+  filter(n_obs > 10000) %>%
+  arrange(desc(n_obs)) %>% 
+ plot_ly(x = ~reorder (aisle, n_obs), y = ~n_obs, color = ~aisle, type = "bar", colors = "viridis") %>% 
+  layout(
+    xaxis = list(title = "Aisle"),
+    yaxis = list(title = "Number of Orders")
+  )
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Scatter Plot
+Number of Orders in Each Hour of Day
+```{r}
+instacart %>% 
+  select(order_id, order_hour_of_day) %>% 
+  group_by(order_hour_of_day) %>% 
+  summarise(n=n_distinct(order_id)) %>% 
+  plot_ly(x = ~order_hour_of_day, y = ~n, type = "scatter") %>% 
+  layout(
+    xaxis = list(title = "Hour Of Day"),
+    yaxis = list(title = "Number of Orders")
+  )
+```
+
+### Box Plot
+Purchasing Time Distribution for Days in Week
+
+```{r}
+instacart %>% 
+  mutate(weekday = factor(order_dow, 
+                         levels = 0:6,
+                         labels = c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"))) %>% 
+  select(order_id, weekday, order_hour_of_day) %>% 
+  distinct(order_id, .keep_all = TRUE) %>% 
+  plot_ly(x = ~weekday, y = ~order_hour_of_day, color = ~weekday, type = "box", colors = "viridis") %>% 
+  layout(
+    xaxis = list(title = "Day of Week"),
+    yaxis = list(title = "Hour Of Day")
+  )
+```
+

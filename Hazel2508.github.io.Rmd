@@ -14,4 +14,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This website introduces Hazel's academic and professional experience([resume](resume.html)), also provided Hazel's GitHub account, email, and linkedin page.
 
+Also, it contains plots that I made in the "Dashboard" section.
+
 
