@@ -1,5 +1,5 @@
 ---
-title: "Hazel Yang's Resume"
+title: "Hazel Yang's Website"
 output: 
   html_document:
     toc: true
@@ -10,102 +10,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Introduction
 
-This website introduces Hazel's academic and professional experience, also provided Hazel's GitHub account, email, and other professional networks.
-
-# EDUCATION
-
-## UNIVERSITY OF NOTTINGHAM NINGBO CHINA (UNNC)	                                                                               
-Bachelor of Science in Economics	2021-2025
-	
-- Cumulative GPA: 3.9/4.0 
-- Awards: 2021-2022 Dean’s Scholarship, 2022 Rising Star Award, Nottingham Advantage Award
-
-## UNIVERSITY OF NOTTINGHAM	                                                                                                       
-Exchange Program	09/2023-02/2024
-
-## UNIVERSITY OF CHICAGO                                                                                                                
-Data and Policy Summer School Program       06/2024-07/2024
-
-- Courses: Data Analytics (95/100), R programming (95/100), Capstone (98/100)
-
--	Capstone Project: The Impact of Economic Conditions on US Presidential Elections     
-
-# PROFESSIONAL EXPERIENCES
-
-## JIANGXI PET INDUSTRY ASSOCIATION (National Leading Laboratory) 	
-Research Intern	                        06/2024-09/2024
-
--	Conducted data analysis on stem cell therapy applications for pet arthritis and tissue injuries, utilizing R to evaluate treatment effects and identify potential side effects
-
--	Led data collection and analysis on chronic pet diseases, collaborated with veterinarians to build a dataset of key symptoms and treatments, and established statistical models to forecast treatment outcomes
-
--	Created interactive data visualizations that transformed complex clinical datasets into actionable insights to improve treatment strategies and gained an understanding of medical research fundamentals and methodologies
+This website introduces Hazel's academic and professional experience([resume](resume.html)), also provided Hazel's GitHub account, email, and other professional networks.
 
 
-## MINSHENG SECURITIES 	
-Industry Research Assistant 	             02/2024-05/2024
-
--	Performed data-driven market landscape analysis for the New Energy Industry with a focus on business strategy and business operation data of market leaders in China, such as Contemporary Amperex Technology Co. Limited 
-
--	Wrote business analysis report on business model, industrial position and cost-effectiveness analysis of Contemporary Amperex Technology
-
-## PWC-SHANGHAI OFFICE 	
-Core Audit Team	                         12/2022-02/2023
-
--	Grasped in-depth knowledge of auditing fundamentals applied in the pharmaceutical industry and developed hands-on skills of internal control in audit projects with leading pharmaceutical companies.
-
--	Worked as a key member in two annual audit projects with Medtronic and Herbalife (China)
-
--	Acquired hands-on audit techniques by working on tasks related to audit data collection, analysis, and verification
-
-## GUOTAI JUNAN SECURITIES CO.
-Intern-Business Analysis 	                 08/2022-09/2022
-
--	Performed stock market data analysis, focusing on  data collection and data visualization 
-
--	Accomplished stock analysis by using professional terminals and databases and delivered analytical reports 
-
-
-# ACADEMIC PROJECTS
-
-## AI-BASED FINANCIAL ANALYSIS & STOCK PRICE PREDICTION
-Analyst	                              06/2024-08/2024
-
--	Adopted advanced AI techniques to realize financial data analysis and stock performance projection, gained hands-on knowledge in building Maturity Models and scalable prediction frameworks with Prophet
-
--	Developed proficiency in various data processing tools, including Tableau and Pandas in Python, and foundational skills in applying machine learning algorithms, Natural Language Processing (NLP), and GenAI to achieve analytical model optimization
-
-## HEALTH ECONOMICS (DR. ADAM CHEN)
-Research Assistant	06/2023-06/2025
-
--	Join in the research projects of Dr. Chen, a prestigious scholar in the field of health economics and policy research
-
--	Studied the Chinese major healthcare system by investigating hospitals and doctors, and collected data using Python to help improve medical care in areas with fewer resources and improve telemedicine
-
--	Developed interactive data visualization tools to present treatment system operations, enabling research teams and decision-makers to identify operational efficiency and areas for improvement
-
-# EXTRACURRICULAR ACTIVITIES 
-
-##JIANGXI PET PROTECTION ASSOCIATION         
-Key Member     06/2024-Present
-
--	Led the development of a mobile application to connect stray pets with potential adopters and facilitated data collection on pet profiles and adopter preferences
-
--	Analyzed variables including abandonment reason, health conditions, vaccine records, age, and sterilization to design the matching algorithm
-
--	Analyzed data to optimize adoptions, achieving over 100 successful adoptions in 2 months and increasing the adoption rate by 10%
-
-##UNNC ASSOCIATION OF CHINESE & FOREIGN STUDENTS (Vis~à~Vis) 
-Director of Go UK Program, HR Manager	 10/2021-10/2023
-
--	Led the collaboration with the Global Engagement Office and student representatives from over 20 countries to host more than 10 on-campus events tailored for nurturing cross-cultural awareness, such as the Global Fair and Buddy’s Night with 5000 participants maximum.
-
--	Organize the Stress Relief Week activities such as Mini Zoo, Water Splashing, and Candy Sharing to soothe students for the final exam
-
--	Took leadership responsibility for  daily operation effectiveness, including recruitment and training workshop organization
-
-# ADDITIONAL	
-
--	Language: Mandarin Chinese (Native); English (Professional Proficiency)
--	Technical Skills: Proficient in R, STATA, Matlab, Tableau, Python, C++, C, and Wind Database
